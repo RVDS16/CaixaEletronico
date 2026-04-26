@@ -88,7 +88,7 @@ public class ICaixaEletronico {
 // Validação final do saque:
         
 // Se ao final o restante for 0, o saque deu certo! 
-        if (restante < 0) {
+        if (restante == 0) {
 
 // Ele chama o atualizarEstoque
             atualizarEstoque(notasParaEntregar);
